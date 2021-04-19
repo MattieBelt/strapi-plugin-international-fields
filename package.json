@@ -1,0 +1,34 @@
+{
+  "name": "strapi-plugin-international-fields",
+  "version": "0.1.0",
+  "description": "Strapi plugin that adds international fields with i18n support.",
+  "strapi": {
+    "id": "international-fields",
+    "name": "International fields",
+    "icon": "globe",
+    "description": "Adds fields: country, language & nationality with i18n support."
+  },
+  "dependencies": {
+    "@buffetjs/custom": "^3.3.5",
+    "@cospired/i18n-iso-languages": "^3.0.0",
+    "i18n-iso-countries": "^6.7.0",
+    "i18n-nationality": "^1.1.1"
+  },
+  "author": {
+    "name": "Mattias van den Belt",
+    "email": "mattiasvandenbelt@gmail.com",
+    "url": "https://github.com/MattieBelt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MattieBelt/strapi-plugin-international-fields.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MattieBelt/strapi-plugin-international-fields/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

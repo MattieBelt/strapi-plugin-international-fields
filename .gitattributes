@@ -1,0 +1,12 @@
+*.js              text
+*.json            text
+
+*.md              text
+*README*          text
+
+.editorconfig     text
+.gitattributes    text
+*.lock            text -diff
+package-lock.json text -diff
+
+*.*ignore         text
