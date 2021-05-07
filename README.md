@@ -7,21 +7,25 @@
     <img src="https://img.shields.io/npm/dm/strapi-plugin-international-fields.svg" alt="Monthly download on NPM" />
 </a>
 
-This plugin adds custom fields to your [Strapi](https://github.com/strapi/strapi) application:
+This plugin adds the following custom fields to your [Strapi](https://github.com/strapi/strapi) application:
 
-* Country
-* Language
-* Nationality
+* [Country](#country)
+* [Language](#language)
+* [Nationality](#language)
+
+The option labels have localisation applied to if available. Check the [locales table](#locales) down below for the included Admin panel locales.
+
+![preview](preview.jpg)
 
 **Supported Strapi versions:**
  
-* v3.5 (and higher)
+* v3.6 (and higher)
 
-_Older versions may work but are not supported._
+_Older versions may work but are not tested._
 
 ## Installation
 
-**Add package**
+**Add plugin package**
 ```bash
 # using yarn
 yarn add strapi-plugin-international-fields
@@ -41,7 +45,7 @@ npm run build --clean
 
 ## Usage
 
-You can't add custom fields through the _Content-Types Builder_ with Strapi yet, so you'll need to add it manually. To add the custom field to any content type you need to add it to the `attributes` in the models settings file `api/*/models/*.settings.json` like the example below. 
+Currently it isn't possible to add custom fields through the _Content-Types Builder_ with Strapi, so you'll need to add it manually. To add one of the custom fields to a content type you need to add it to the `attributes` field in the models settings file (`api/*/models/*.settings.json`) like the example below. 
 
 ```diff
 {
@@ -54,6 +58,55 @@ You can't add custom fields through the _Content-Types Builder_ with Strapi yet,
   }
 }
 ```
+
+## Fields
+
+### Country
+The country field provides an dropdown with every country from the [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) standard. The two-letter country code (ISO 3166-1 alpha-2) will be saved in the database. Almost all the Strapi Admin panel locales are included, so depending on the selected Interface language, the dropdown will be displayed with localized option labels.
+
+### Language 
+The language field provides an dropdown with every language from the [ISO 639](https://en.wikipedia.org/wiki/ISO_639) standard. The two-letter language code (ISO 639-1 alpha-2) will be saved in the database. Almost all the Strapi Admin panel locales are included, so depending on the selected Interface language, the dropdown will be displayed with localized option labels.
+
+### Nationality 
+The nationality field provides an dropdown with every nationality from the [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166) standard. The two-letter country code (ISO 3166-1 alpha-2) will be saved in the database. Only English, German and French are included, so depending on the selected Interface language, the dropdown will be displayed with i18n options, with english as fallback.
+
+## Locales
+The following Strapi locales are supported per field. The default fallback is `en` (English).
+
+| i18n locale | Native name          | Country | Langaue | Nationality |
+|-------------|----------------------|---------|---------|-------------|
+| ar          | العربية              | x       |         |             |
+| cs          | Čeština              | x       | x       |             |
+| de          | Deutsch              | x       | x       | x           |
+| dk          | Dansk                | x       |         |             |
+| en          | English              | x       | x       | x           |
+| es          | Español              | x       | x       |             |
+| fr          | Français             | x       | x       | x           |
+| he          | עברית                | x       |         |             |
+| id          | Indonesian           | x       |         |             |
+| it          | Italiano             | x       | x       |             |
+| ja          | 日本語               | x       | x       |             |
+| ko          | 한국어               | x       |         |             |
+| ms          | Melayu               | x       |         |             |
+| nl          | Nederlands           | x       | x       |             |
+| pl          | Polski               | x       | x       |             |
+| pt-BR       | Português (Brasil)   | pt      | pt      |             |
+| pt          | Português (Portugal) | x       | x       |             |
+| ru          | Русский              | x       | x       |             |
+| sk          | Slovenčina           | x       |         |             |
+| th          | ไทย                  | x       |         |             |
+| tr          | Türkçe               | x       |         |             |
+| uk          | Українська           | x       |         |             |
+| vi          | Tiếng Việt           | x       |         |             |
+| zh-Hans     | 中文 (简体)          | zh      | zh      |             |
+| zh          | 中文 (繁體)          | x       | x       |             |
+
+### i18n packages
+The following packages are used to display the localized option labels. 
+
+* Country: [i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries)
+* Language: [@cospired/i18n-iso-languages](https://github.com/cospired/i18n-iso-languages)
+* Nationality: [i18n-nationality](https://github.com/sourcecode911/i18n-nationality)
 
 ### Support
 - [Strapi community on Slack](http://slack.strapi.io), feel free to DM me (@MattieBelt).
