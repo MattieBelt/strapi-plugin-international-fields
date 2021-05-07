@@ -4,6 +4,7 @@ import en from '@cospired/i18n-iso-languages/langs/en.json';
 import es from '@cospired/i18n-iso-languages/langs/es.json';
 import fr from '@cospired/i18n-iso-languages/langs/fr.json';
 import it from '@cospired/i18n-iso-languages/langs/it.json';
+import ja from '@cospired/i18n-iso-languages/langs/ja.json';
 import nl from '@cospired/i18n-iso-languages/langs/nl.json';
 import pl from '@cospired/i18n-iso-languages/langs/pl.json';
 import pt from '@cospired/i18n-iso-languages/langs/pt.json';
@@ -17,6 +18,7 @@ const languages = {
   es,
   fr,
   it,
+  ja,
   nl,
   pl,
   'pt-BR': pt,
