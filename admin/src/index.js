@@ -15,6 +15,7 @@ export default strapi => {
     layout: null,
     name : pluginPkg.strapi.name,
     preventComponentRendering: false,
+    trads: {},
   };
 
   return strapi.registerPlugin(plugin);
