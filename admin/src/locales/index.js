@@ -1,6 +1,6 @@
-import countries from 'locales/countries';
-import languages from 'locales/languages';
-import nationalities from 'locales/nationalities';
+import countries from './countries';
+import languages from './languages';
+import nationalities from './nationalities';
 
 export {
   countries,
