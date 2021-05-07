@@ -73,33 +73,33 @@ The nationality field provides an dropdown with every nationality from the [ISO 
 ## Locales
 The following Strapi locales are supported per field. The default fallback is `en` (English).
 
-| i18n locale | Native name          | Country | Langaue | Nationality |
-|-------------|----------------------|---------|---------|-------------|
-| ar          | العربية              | x       |         |             |
-| cs          | Čeština              | x       | x       |             |
-| de          | Deutsch              | x       | x       | x           |
-| dk          | Dansk                | x       |         |             |
-| en          | English              | x       | x       | x           |
-| es          | Español              | x       | x       |             |
-| fr          | Français             | x       | x       | x           |
-| he          | עברית                | x       |         |             |
-| id          | Indonesian           | x       |         |             |
-| it          | Italiano             | x       | x       |             |
-| ja          | 日本語               | x       | x       |             |
-| ko          | 한국어               | x       |         |             |
-| ms          | Melayu               | x       |         |             |
-| nl          | Nederlands           | x       | x       |             |
-| pl          | Polski               | x       | x       |             |
-| pt-BR       | Português (Brasil)   | pt      | pt      |             |
-| pt          | Português (Portugal) | x       | x       |             |
-| ru          | Русский              | x       | x       |             |
-| sk          | Slovenčina           | x       |         |             |
-| th          | ไทย                  | x       |         |             |
-| tr          | Türkçe               | x       |         |             |
-| uk          | Українська           | x       |         |             |
-| vi          | Tiếng Việt           | x       |         |             |
-| zh-Hans     | 中文 (简体)          | zh      | zh      |             |
-| zh          | 中文 (繁體)          | x       | x       |             |
+| i18n locale | Native name          | Country | Language | Nationality |
+|-------------|----------------------|:-------:|:--------:|:-----------:|
+| ar          | العربية              | x       |          |             |
+| cs          | Čeština              | x       | x        |             |
+| de          | Deutsch              | x       | x        | x           |
+| dk          | Dansk                | x       |          |             |
+| en          | English              | x       | x        | x           |
+| es          | Español              | x       | x        |             |
+| fr          | Français             | x       | x        | x           |
+| he          | עברית                 | x       |          |             |
+| id          | Indonesian           | x       |          |             |
+| it          | Italiano             | x       | x        |             |
+| ja          | 日本語                | x       | x        |             |
+| ko          | 한국어                | x       |          |             |
+| ms          | Melayu               | x       |          |             |
+| nl          | Nederlands           | x       | x        |             |
+| pl          | Polski               | x       | x        |             |
+| pt-BR       | Português (Brasil)   | pt      | pt       |             |
+| pt          | Português (Portugal) | x       | x        |             |
+| ru          | Русский              | x       | x        |             |
+| sk          | Slovenčina           | x       |          |             |
+| th          | ไทย                  | x       |          |             |
+| tr          | Türkçe               | x       |          |             |
+| uk          | Українська           | x       |          |             |
+| vi          | Tiếng Việt           | x       |          |             |
+| zh-Hans     | 中文 (简体)           | zh      | zh       |             |
+| zh          | 中文 (繁體)           | x       | x        |             |
 
 ### i18n packages
 The following packages are used to display the localized option labels. 
