@@ -18,7 +18,7 @@ const Initializer = ({ updatePlugin }) => {
     fieldApi.registerField({ type: 'nationality', Component: InputNationality });
 
     ref.current(pluginPkg.strapi.id, 'isReady', true);
-  }, []);
+  }, [fieldApi]);
 
   return null;
 };
