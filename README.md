@@ -11,7 +11,7 @@ This plugin adds the following custom fields to your [Strapi](https://github.com
 
 * [Country](#country)
 * [Language](#language)
-* [Nationality](#language)
+* [Nationality](#nationality)
 
 The option labels have localisation applied to if available. Check the [locales table](#locales) down below for the included Admin panel locales.
 
@@ -53,8 +53,20 @@ Currently it isn't possible to add custom fields through the _Content-Types Buil
     "country": {
 -      "type": "string",
 +      "type": "country",
-+      "columnType": "text"
-    }
++      "columnType": "String"
+    },
+    "language": {
+-      "type": "string",
++      "type": "language",
++      "columnType": "String"
+    },
+    "nationality": {
+-      "type": "string",
++      "type": "nationality",
++      "columnType": "String"
+    },
+  }
+}
   }
 }
 ```
@@ -109,7 +121,7 @@ The following packages are used to display the localized option labels.
 * Nationality: [i18n-nationality](https://github.com/sourcecode911/i18n-nationality)
 
 ### Support
-- [Strapi community on Slack](http://slack.strapi.io), feel free to DM me (@MattieBelt).
+- [Strapi community on Discord](http://discord.strapi.io), feel free to DM me (@MattieBelt).
 - [GitHub issues](https://github.com/MattieBelt/strapi-plugin-international-fields/issues) for bugs 🐛, contributions 🔧 or just anything to discuss 💬.
 
 ### Resources
