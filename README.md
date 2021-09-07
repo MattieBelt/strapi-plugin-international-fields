@@ -101,6 +101,7 @@ The following Strapi locales are supported per field. The default fallback is `e
 | ko          | 한국어                | x       |          |             |
 | ms          | Melayu               | x       | x        |             |
 | nl          | Nederlands           | x       | x        |             |
+| no          | Norwegian            | x       | x        |             |
 | pl          | Polski               | x       | x        |             |
 | pt-BR       | Português (Brasil)   | pt      | pt       |             |
 | pt          | Português (Portugal) | x       | x        |             |

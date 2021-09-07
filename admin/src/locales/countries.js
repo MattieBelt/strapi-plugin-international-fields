@@ -11,6 +11,7 @@ import ja from 'i18n-iso-countries/langs/ja.json';
 import ko from 'i18n-iso-countries/langs/ko.json';
 import ms from 'i18n-iso-countries/langs/ms.json';
 import nl from 'i18n-iso-countries/langs/nl.json';
+import no from 'i18n-iso-countries/langs/no.json';
 import pl from 'i18n-iso-countries/langs/pl.json';
 import pt from 'i18n-iso-countries/langs/pt.json';
 import ru from 'i18n-iso-countries/langs/ru.json';
@@ -35,6 +36,7 @@ const countries = {
   ko,
   ms,
   nl,
+  no,
   pl,
   'pt-BR': pt,
   pt,
