@@ -95,21 +95,21 @@ The following Strapi locales are supported per field. The default fallback is `e
 | es          | Español              | x       | x        |             |
 | fr          | Français             | x       | x        | x           |
 | he          | עברית                 | x       |          |             |
-| id          | Indonesian           | x       |          |             |
+| id          | Indonesian           | x       | x        |             |
 | it          | Italiano             | x       | x        |             |
 | ja          | 日本語                | x       | x        |             |
 | ko          | 한국어                | x       |          |             |
-| ms          | Melayu               | x       |          |             |
+| ms          | Melayu               | x       | x        |             |
 | nl          | Nederlands           | x       | x        |             |
 | pl          | Polski               | x       | x        |             |
 | pt-BR       | Português (Brasil)   | pt      | pt       |             |
 | pt          | Português (Portugal) | x       | x        |             |
 | ru          | Русский              | x       | x        |             |
 | sk          | Slovenčina           | x       |          |             |
-| th          | ไทย                  | x       |          |             |
+| th          | ไทย                  | x       | x        |             |
 | tr          | Türkçe               | x       |          |             |
 | uk          | Українська           | x       |          |             |
-| vi          | Tiếng Việt           | x       |          |             |
+| vi          | Tiếng Việt           | x       |  x       |             |
 | zh-Hans     | 中文 (简体)           | zh      | zh       |             |
 | zh          | 中文 (繁體)           | x       | x        |             |
 
