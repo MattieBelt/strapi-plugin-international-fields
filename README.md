@@ -49,24 +49,23 @@ Currently it isn't possible to add custom fields through the _Content-Types Buil
 
 ```diff
 {
+  // ...
   "attributes": {
     "country": {
 -      "type": "string",
 +      "type": "country",
-+      "columnType": "String"
++      "columnType": "CHAR(2)"
     },
     "language": {
 -      "type": "string",
 +      "type": "language",
-+      "columnType": "String"
++      "columnType": "CHAR(2)"
     },
     "nationality": {
 -      "type": "string",
 +      "type": "nationality",
-+      "columnType": "String"
++      "columnType": "CHAR(2)"
     },
-  }
-}
   }
 }
 ```
