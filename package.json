@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-international-fields",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Strapi plugin that adds international fields with i18n support.",
   "strapi": {
     "id": "international-fields",
