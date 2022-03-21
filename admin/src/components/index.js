@@ -18,7 +18,7 @@ const InternationalInput = (props) => {
 const InputCountry = (props) => {
   const locale = currentLanguage in countries ? countries[currentLanguage] : countries.en;
   const options = Object.entries(locale.countries).map((country) => ({
-    label: country[1],
+    label: Array.isArray(country[1]) ? country[1][0] : country[1],
     value: Array.isArray(country[0]) ? country[0][0] : country[0]
   }));
 
