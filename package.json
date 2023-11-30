@@ -43,7 +43,7 @@
     "url": "https://github.com/MattieBelt/strapi-plugin-international-fields/issues"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
